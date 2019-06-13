@@ -16,9 +16,7 @@ const IndexPage = ({ data }) => (
     <div
       className="imageWrapper"
       style={{
-        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${
-          configs.cover_overlay_color_rgba
-        }),url(${data.headerImage.childImageSharp.fluid.src})`,
+        backgroundImage: `linear-gradient(${configs.cover_overlay_color_rgba},${configs.cover_overlay_color_rgba}),url(${data.headerImage.childImageSharp.fluid.src})`,
       }}
     >
       <div className="headerBackground">
@@ -166,9 +164,7 @@ const IndexPage = ({ data }) => (
                       <span className="fa-stack fa-1x">
                         <i className="iconBack fas fa-circle fa-stack-2x" />
                         <i
-                          className={`iconTop fas fa-${
-                            feature.fontawesome_icon_name
-                          } fa-stack-1x`}
+                          className={`iconTop fas fa-${feature.fontawesome_icon_name} fa-stack-1x`}
                         />
                       </span>
                     </div>
@@ -304,7 +300,7 @@ export const query = graphql`
         }
       }
     }
-    headerImage: file(relativePath: { eq: "headerimage.png" }) {
+    headerImage: file(relativePath: { eq: "headerimage.jpg" }) {
       childImageSharp {
         fluid(maxHeight: 714) {
           ...GatsbyImageSharpFluid

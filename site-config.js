@@ -1,6 +1,6 @@
 module.exports = {
   // App Info
-  appstore_link: "https://cheerswipe.com", // Enter App Store URL.
+  appstore_link: "https://apps.apple.com/us/app/cheerswipe/id1468158095?ls=1", // Enter App Store URL.
   playstore_link: "https://cheerswipe.com", // Enter Google Play Store URL.
   google_analytics_ID: "", // Enter Google Analytics ID or ""
   presskit_download_link: "", // Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file).

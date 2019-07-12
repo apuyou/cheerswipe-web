@@ -35,7 +35,7 @@ module.exports = {
     {
       title: "Swipe left to cheer",
       description:
-        "If you like a goal, show it to the maker by swiping sending a cheer.",
+        "If you like a goal, show it to the maker by sending a cheer.",
       fontawesome_icon_name: "hand-point-left",
     },
     {

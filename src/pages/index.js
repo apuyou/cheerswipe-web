@@ -139,9 +139,9 @@ const IndexPage = ({ data }) => (
             </div>
             <div className="downloadButtonsContainer">
               <StoreBadge
-                data-name="Cheerswipe"
-                data-google-play-url={configs.playstore_link}
-                data-app-store-url={configs.appstore_link}
+                name="Cheerswipe"
+                googlePlayUrl={configs.playstore_link}
+                appStoreUrl={configs.appstore_link}
               />
             </div>
           </div>

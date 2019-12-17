@@ -26,9 +26,7 @@
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
-    "husky": "^1.3.1",
-    "prettier": "^1.16.4",
-    "pretty-quick": "^1.11.1"
+    "prettier": "^1.16.4"
   },
   "keywords": [
     "gatsby"
@@ -41,11 +39,6 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\""
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged --pattern src/**/*.{js,jsx}"
-    }
   },
   "repository": {
     "type": "git",

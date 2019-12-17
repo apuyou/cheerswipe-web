@@ -1,6 +1,7 @@
 import React from "react"
 import { graphql } from "gatsby"
 import Img from "gatsby-image"
+import StoreBadge from "react-store-badge"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
@@ -137,22 +138,11 @@ const IndexPage = ({ data }) => (
               <p className="appDescription">{configs.app_description}</p>
             </div>
             <div className="downloadButtonsContainer">
-              {configs.playstore_link && (
-                <a className="playStoreLink" href={configs.playstore_link}>
-                  <Img
-                    fixed={data.playStore.childImageSharp.fixed}
-                    className="playStore"
-                  />
-                </a>
-              )}
-              {configs.appstore_link && (
-                <a className="appStoreLink" href={configs.appstore_link}>
-                  <Img
-                    fixed={data.appStore.childImageSharp.fixed}
-                    className="appStore"
-                  />
-                </a>
-              )}
+              <StoreBadge
+                data-name="Cheerswipe"
+                data-google-play-url={configs.playstore_link}
+                data-app-store-url={configs.appstore_link}
+              />
             </div>
           </div>
           <div className="features">

@@ -273,35 +273,32 @@ export default createGlobalStyle`
     display: inline-block;
     margin-top: 42px;
     filter: drop-shadow(0px 5px 10px rgba(#000, 0.1)) drop-shadow(0px 1px 1px rgba(#000, 0.2));
+
+    img {
+      height: 75px;
+    }
+
+    img:nth-child(1) {
+      margin-right: 24px;
+    }
   }
 
   @media only screen and (max-width: 992px) {
     .downloadButtonsContainer {
       text-align: center;
-    }
-  }
 
-  .playStore {
-    height: 75px;
-    margin-right: 24px;
-  }
-
-  @media only screen and (max-width: 992px) {
-    .playStore {
-      margin-right: 24px;
-      margin-bottom: 0px;
+      img:nth-child(1) {
+        margin-right: 24px;
+        margin-bottom: 0px;
+      }
     }
   }
 
   @media only screen and (max-width: 528px) {
-    .playStore {
+    .downloadButtonsContainer img:nth-child(1) {
       margin-right: 0px;
       margin-bottom: 24px;
     }
-  }
-
-  .appStore {
-    height: 75px;
   }
 
   // iPhone Device Preview

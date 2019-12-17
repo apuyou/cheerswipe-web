@@ -9742,6 +9742,11 @@ react-side-effect@^1.1.0:
     exenv "^1.2.1"
     shallowequal "^1.0.1"
 
+react-store-badge@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/react-store-badge/-/react-store-badge-1.0.0.tgz#3748ca0f90dfbaf27540a2b2788cfc764b2b41c3"
+  integrity sha512-KKghsOq6wh/oeELG0z5GuipPibxXjyH2tbVtPBbmi9NrIlHxoJCJNKhbHFrscrluS/pqog0WzfY+kqvWo8bRwA==
+
 react@^16.12.0, react@^16.8.4:
   version "16.12.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.12.0.tgz#0c0a9c6a142429e3614834d5a778e18aa78a0b83"

@@ -146,10 +146,10 @@ const IndexPage = ({ data }) => (
             </div>
           </div>
           <div className="features">
-            {configs.features.map(feature => {
+            {configs.features.map((feature, index) => {
               if (feature.title) {
                 return (
-                  <div className="feature">
+                  <div className="feature" key={index}>
                     <div>
                       <span className="fa-stack fa-1x">
                         <i className="iconBack fas fa-circle fa-stack-2x" />
